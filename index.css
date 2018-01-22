@@ -1,0 +1,41 @@
+#cyanlistwrap
+{
+float:clear;
+padding-top:2em;
+}
+
+.cyanimg
+{
+float:left;
+padding-right:5em;
+}
+
+.cyanlist
+{
+float:clear;
+padding: 1em;
+}
+
+.cyanlist li
+{
+	border-radius: 100px / 50px;
+	float:left;
+	background-color:#669999;
+	color: #663300;
+	font-size: 2.5em;
+	font-family: "courier new",serif;
+	font-weight: bold;
+	text-align: center;
+	padding: 0.5em 2em;
+}
+.cyanlist a
+{
+text-decoration:none;
+color:inherit;
+}
+
+.cyanlist a:hover
+{
+text-decoration:underline;
+color:inherit;
+}

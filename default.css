@@ -1,0 +1,154 @@
+body,
+html {
+	margin:0;
+	padding:0;
+	color:#000;
+	/*font-family: verdana, arial, "sans serif"; */
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	
+	}
+body {
+	/*background-image: url('images/flower2.gif'); /* If you don't like it, change it !*/
+	/* background-color:#81C288; */
+	 background-color:#FFFFFF;
+	
+
+}
+#outerWrap {
+	width:100%;
+	margin:0 auto;
+/*	background: url('images/bgtile.png') repeat-y center; /**/
+	min-height: 90%;
+}
+#wrap {
+	width:50%;
+	margin:0 auto;
+}
+#header {
+	padding:5px 10px;
+	background:#666;
+	height: 100px;
+	font-family: georgia;
+	color: #fff;	
+}
+
+h1 {
+	margin:0;
+}
+
+#header h1 {
+	margin-top: 30px;
+	padding-bottom:0px;
+	text-align: center;
+}
+#header p {
+	text-align: center;
+	font-size: 14px;
+}
+
+
+#nav {
+	padding:15px 10px;
+	background:#666;
+	/*visibility: hidden;    */
+	color: #FFF;
+}
+#nav ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+	text-align:center;
+	width:100%;
+	background-color:inherit;
+}
+#nav li {
+	display:inline;
+	margin:0;
+	padding:0;
+	padding-left:10px;
+	padding-right: 10px;
+	text-align:center;
+}
+#nav a {
+	color: #FFF;
+}
+
+#nav a:hover {
+color: darkgray;
+}
+
+
+#main {
+	float:left;
+	width:100%;
+	padding:0px;
+	background:#fff;
+/*	border-right: 1px solid #ccc; */
+	min-height:40em;
+}
+#mainPadding {
+	padding: 10px 20px;
+}
+
+#mainPadding ul {
+	list-style:none;
+}
+
+#chapterlist
+{
+	color:inherit;
+	float:left;
+}
+
+#chapterlist li
+{
+	padding: 0.5em 0em;
+}
+
+#chapterlist a
+{
+	color: blue;
+}
+
+#chapterlist a:hover
+{
+	color:#666666;
+}
+
+#chapterlist a:visited
+{
+	color:#551A8B;
+}
+
+
+h2 {
+	margin:0 0 1em;
+}
+#sidebar {
+	float:right;
+	width:230px;
+	padding:10px;
+	background:#fff;
+}
+
+.imageColumn
+{
+	width:500px;
+}
+
+#footer {
+	clear:both;
+	 padding:3px 20px;/* */
+	 font-size: 9px;
+	 font-family: arial;
+/*	 text-transform: lowercase; */
+	 color: #666;
+}
+#footer a {
+	color: inherit;
+}
+
+* html #footer {
+	height:1px;
+}

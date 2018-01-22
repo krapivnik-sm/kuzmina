@@ -1,0 +1,21 @@
+.cyantitle
+{
+width:100%;
+}
+
+
+
+.cyantitle p
+{
+	float:clear;
+	border-radius: 100px / 50px;
+	float:left;
+	background-color:#669999;
+	color: #663300;
+	font-size: 2em;
+	font-family: "courier new",serif;
+	font-weight: bold;
+	text-align: center;
+	padding: 0.5em 2em;
+}
+
