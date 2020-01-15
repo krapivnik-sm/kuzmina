@@ -1,31 +1,29 @@
-body, html {
-    margin: 0px;
-    padding: 0px;
-    height: 100%;
-    width: 100%;
-}
-
+body,
+html {
+	margin:0;
+	padding:0;
+	color:#000;
+	/*font-family: verdana, arial, "sans serif"; */
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	
+	}
 body {
 	/*background-image: url('images/flower2.gif'); /* If you don't like it, change it !*/
 	/* background-color:#81C288; */
 	 background-color:#FFFFFF;
+	
+
 }
-
-/*without test jigsaw breaks*/
-table {
-    line-height: 0px;
-}
-
-
 #outerWrap {
 	width:100%;
-	margin:0px auto;
+	margin:0 auto;
 /*	background: url('images/bgtile.png') repeat-y center; /**/
 	min-height: 90%;
 }
 #wrap {
 	width:50%;
-	margin:0px auto;
+	margin:0 auto;
 }
 #header {
 	padding:5px 10px;
@@ -34,9 +32,17 @@ table {
 	font-family: georgia;
 	color: #fff;	
 }
+#header a{
+	text-decoration:none;
+	font-weight:strong;
+	color:white;
+}
+#header a:hover{
+	text-decoration:underline;
+}
 
 h1 {
-	margin:0px;
+	margin:0;
 }
 
 #header h1 {
@@ -44,6 +50,14 @@ h1 {
 	padding-bottom:0px;
 	text-align: center;
 }
+
+#header h2 {
+	margin-top: 10px;
+	padding-bottom:0px;
+	text-align: center;
+	font-weight:normal;
+}
+
 #header p {
 	text-align: center;
 	font-size: 14px;
@@ -57,8 +71,8 @@ h1 {
 	color: #FFF;
 }
 #nav ul {
-	margin:0px;
-	padding:0px;
+	margin:0;
+	padding:0;
 	list-style:none;
 	text-align:center;
 	width:100%;
@@ -66,11 +80,10 @@ h1 {
 }
 #nav li {
 	display:inline;
-	margin:0px;
-	padding:0px;
+	padding:0;
 	padding-left:10px;
 	padding-right: 10px;
-	text-align:center;
+	text-align:center;	
 }
 #nav a {
 	color: #FFF;
@@ -125,7 +138,7 @@ color: darkgray;
 
 
 h2 {
-	margin:0em 0em 1em;
+	margin:0 0 1em;
 }
 #sidebar {
 	float:right;
